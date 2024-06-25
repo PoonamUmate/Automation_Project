@@ -13,8 +13,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
-
 public class Base_test {
 	public static WebDriver driver;
 

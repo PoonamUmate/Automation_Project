@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 
 public class Class_015 extends Base_test{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		launch_browser("chrome");
 		Navigate_url("https://www.ilovepdf.com/word_to_pdf");
@@ -22,16 +22,10 @@ public class Class_015 extends Base_test{
 		//copy file location
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(s, null);
 		
-		try {
-			Robot r = new Robot();
-		} catch (AWTException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			
-		}		
-		//press control v
-		r.key
 		
+			Robot r = new Robot();
+		
+		//r.keyp
 	}
 
 }
